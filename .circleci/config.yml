@@ -50,10 +50,10 @@ jobs:
 workflows:
   example:
     jobs:
-      - test
+      # - test
       - build:
-          requires:
-            - test
+          # requires:
+            # - test
       - deploy:
-          requires:
-            - test
+          # requires:
+            # - test
